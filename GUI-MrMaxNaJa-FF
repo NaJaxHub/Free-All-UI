@@ -9,7 +9,7 @@ do local GUI = game.CoreGui:FindFirstChild("MAXUI")
     end
 end
 
-local NaJaHubLibrary = {}
+--local NaJaHubLibrary = {}
 local UserInputService = game:GetService("UserInputService")
 local TweenService = game:GetService("TweenService")
 
@@ -64,7 +64,7 @@ local function MakeDraggable(topbarobject, object)
 	)
 end
 
---local NaJaHubLibrary = {}
+local NaJaHubLibrary = {}
 
 function NaJaHubLibrary:Window(text,logo,text2,keybind)--(text,logo,keybind)
 	local uihide = false
